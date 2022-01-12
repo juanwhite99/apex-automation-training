@@ -22,6 +22,12 @@ dotnet add package Selenium.WebDriver.ChromeDriver
 
 
 ### Usefull commands 
+
+* ##### Gitignore generator command
+```
+dotnet new gitignore
+```
+
 * ##### To run the tests
 ```
 dotnet test
