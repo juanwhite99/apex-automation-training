@@ -39,3 +39,21 @@ taskkill /F /IM chromedriver.exe /T
 taskkill /F /IM chrome.exe /T
 ```
 
+
+---
+
+# Apex automation course day 2
+---
+
+### Summary
+* IDisposable
+  * Used to kill the process once the test object is destroyed
+
+* IClassFixture<TestBase>
+  * Used for dependency injection of the shared TestBase class
+
+* Theory and InlineData
+  * Used for multiple tests with the same code and variables
+
+* Extra
+  * Github page simple login for testing purposes

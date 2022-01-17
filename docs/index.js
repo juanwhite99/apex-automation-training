@@ -1,5 +1,5 @@
 const form = document.getElementById("loginForm");
-const result = document.getElementById("loginResult");
+const result = document.getElementById("login-result");
 form.addEventListener("submit", function (event) {
   event.preventDefault();
   const email = form["email"].value;
