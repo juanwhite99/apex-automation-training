@@ -31,7 +31,7 @@ public class HandsOnQaTests: IClassFixture<TestBase>
         testBase.Driver.FindElement(By.CssSelector("button[type='submit']")).Click();
         Thread.Sleep(2000);
 
-        var result = testBase.Driver.FindElement(By.Id("loginResult"));
+        var result = testBase.Driver.FindElement(By.Id("login-result"));
         result.Text.ToLower().Should().Contain("login successful");
     }
 
@@ -52,7 +52,7 @@ public class HandsOnQaTests: IClassFixture<TestBase>
         testBase.Driver.FindElement(By.CssSelector("button[type='submit']")).Click();
         Thread.Sleep(2000);
 
-        var result = testBase.Driver.FindElement(By.Id("loginResult"));
+        var result = testBase.Driver.FindElement(By.Id("login-result"));
         result.Text.ToLower().Should().Be("login failed");
     }
 

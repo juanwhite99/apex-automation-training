@@ -1,5 +1,6 @@
 # Apex automation course day 1
 ---
+### Summary
 
 ### Create the new project
 ```
@@ -13,32 +14,6 @@ dotnet add package FluentAssertions
 dotnet add package Selenium.WebDriver
 dotnet add package Selenium.WebDriver.ChromeDriver
 ```
-
-### "Sauces"
-* https://fluentassertions.com/
-* https://fluentassertions.com/introduction
-* https://dotnet.microsoft.com/en-us/download
-* https://www.lambdatest.com/blog/implicit-wait-csharp-selenium/
-
-
-### Usefull commands 
-
-* ##### Gitignore generator command
-```
-dotnet new gitignore
-```
-
-* ##### To run the tests
-```
-dotnet test
-```
-
-* ##### To kill the processes
-```
-taskkill /F /IM chromedriver.exe /T
-taskkill /F /IM chrome.exe /T
-```
-
 
 ---
 
@@ -57,3 +32,47 @@ taskkill /F /IM chrome.exe /T
 
 * Extra
   * Github page simple login for testing purposes
+
+
+# Apex automation course day 3
+---
+### Summary
+* Added `Specflow.xUnit` dependency to the project from nuget packages
+
+* Gherkin definition
+  
+* Feature files and testing with Given, When, Then, And
+
+![alt text](./assets/tests.png)
+
+
+---
+
+# "Sauces"
+* https://fluentassertions.com/
+* https://fluentassertions.com/introduction
+* https://dotnet.microsoft.com/en-us/download
+* https://www.lambdatest.com/blog/implicit-wait-csharp-selenium/
+* 2019
+  * https://marketplace.visualstudio.com/items?itemName=TechTalkSpecFlowTeam.SpecFlowForVisualStudio
+* 2022
+  * https://marketplace.visualstudio.com/items?itemName=TechTalkSpecFlowTeam.SpecFlowForVisualStudio2022
+* https://specflow.org/learn/gherkin/
+
+### Usefull commands 
+
+* ##### Gitignore generator command
+```
+dotnet new gitignore
+```
+
+* ##### To run the tests
+```
+dotnet test
+```
+
+* ##### To kill the processes
+```
+taskkill /F /IM chromedriver.exe /T
+taskkill /F /IM chrome.exe /T
+```
